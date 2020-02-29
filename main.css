@@ -1,0 +1,274 @@
+/* Main content - to right of sidebar in full screen */
+.main {
+  background-color: #e5e5e5;
+  width: 100%;
+  padding: 0;
+}
+
+/* MAIN - Searchbar*/
+.searchbar {
+  background-color: white;
+  height: 60px;
+  border-bottom: 1px solid #ebeff2;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  border: none;
+}
+.fa-search {
+  margin-right: 20px;
+}
+.searchbar img {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+/* MAIN - One big box on left of screen and Two medium sizes boxes on the right*/
+
+.main .content-container {
+  height: calc(100% - 60px);
+  width: 100%;
+  align-items: stretch;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.box-content {
+  padding: 2%;
+  padding-bottom: 5px;
+}
+.left-side-box {
+  flex: 1;
+  height: 100%;
+  margin-right: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* MAIN - Left side boxes*/
+.left-side-box .box-content {
+  height: 100%;
+}
+.left-side-box .box-content.top {
+  padding: 5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #ebeff2;
+}
+.left-side-box .push-left {
+  margin-left: auto;
+}
+.left-side-box .show-more {
+  font-weight: 600;
+}
+
+/* MAIN - Left - Top 1*/
+
+.percent-bar {
+  height: 4px;
+  width: 100%;
+}
+.percent-bar .percent-complete {
+  background-color: #2ed47a;
+  width: 80%;
+  border-radius: 5px 0px 0px 5px;
+}
+.percent-bar .percent-uncomplete {
+  background-color: white;
+  width: 20%;
+  background-color: #ebeff2;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.week {
+  justify-content: space-between;
+  color: gray;
+}
+.day {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.day .date {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  padding-bottom: 7px;
+}
+.day .date-selected {
+  background-color: rgb(24, 160, 251);
+  border-radius: 50%;
+}
+
+/* MAIN - Left - Smaller boxes*/
+.smaller-box {
+  justify-content: space-around;
+  margin: 2%;
+  padding-top: 5px;
+  border: 1px solid #ebeff2;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+}
+.smaller-box .btn {
+  font-size: 11px;
+  width: 100px;
+  height: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+  border: none;
+  background-color: #2ed47a;
+}
+
+.smaller-box .btn.btn-end {
+  background-color: #f7685b;
+}
+
+.smaller-box .avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 2%;
+  border-radius: 50%;
+}
+.left-side-box .smaller-box .task-owner {
+  align-items: center;
+}
+.left-side-box .smaller-box .task-owner p {
+  margin-bottom: 0;
+}
+.smaller-box .fa-trash {
+  color: #c2cfe0;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 15px;
+}
+.smaller-box .fa-pencil {
+  color: #c2cfe0;
+  font-size: 15px;
+}
+
+/* MAIN - Right side boxes*/
+
+.right-side-boxes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right-side-boxes .header {
+  border-bottom: 1px solid #ebeff2;
+  padding: 5%;
+  padding-bottom: 10px;
+}
+.right-side-boxes .content {
+  padding: 5%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.right-side-boxes .graph-key {
+  align-items: center;
+  text-align: left;
+  align-items: center;
+}
+
+.right-side-boxes ul {
+  padding-left: 0;
+}
+.right-side-boxes li {
+  width: 150px;
+}
+
+.right-side-boxes .rounded {
+  border: 3px solid #109cf1;
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+.right-side-boxes .graph-key p {
+  margin-bottom: 0;
+}
+
+/* Right-side box 1*/
+.right-side-boxes .box-1 {
+  flex: 1;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.right-side-boxes .box-1 img {
+  height: 100%;
+}
+
+/* Right-side box 2*/
+
+.right-side-boxes .box-2 {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+}
+.right-side-boxes .box-2 .content {
+  align-items: center;
+}
+.right-side-boxes .box-2 li {
+  margin-bottom: 10px;
+}
+.right-side-boxes .round-color-red {
+  border: 3px solid #f7685b;
+}
+.right-side-boxes .round-color-yellow {
+  border: 3px solid #ffb946;
+}
+.right-side-boxes .round-color-green {
+  border: 3px solid #2ed47a;
+}
+
+/* Mobile sizing*/
+@media screen and (max-width: 700px) {
+  /* General CSS for mobile */
+  .hidden-in-mobile {
+    display: none;
+  }
+  /* .week {
+    display: none;
+  } */
+
+  /* Main section in mobile */
+  .main {
+    min-height: 1500px;
+  }
+  .main .searchbar {
+    border: none;
+  }
+
+  .main .content-container {
+    height: calc(100% - 60px);
+    width: 100%;
+    align-items: stretch;
+    justify-content: none;
+    padding: 0;
+    flex-direction: column;
+  }
+  .main .left-side-box {
+    width: 100%;
+  }
+
+  .right-side-boxes .box-1,
+  .right-side-boxes .box-2,
+  .left-side-box {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  .right-side-boxes {
+    justify-content: none;
+  }
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+html {
+  height: 100vh;
+  min-height: 800px;
+}
+body {
+  height: 100%;
+  font-family: "Montserrat";
+  color: #192a3e;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.active-blue {
+  color: rgb(24, 160, 251);
+}
+.font-15 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.align-right {
+  margin-left: auto;
+}
+a:hover {
+  cursor: pointer;
+}
