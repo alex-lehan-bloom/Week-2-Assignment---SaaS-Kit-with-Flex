@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+html {
+  height: 100vh;
+  min-height: 900px;
+}
+body {
+  height: 100%;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: #192a3e;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.active-blue {
+  color: rgb(24, 160, 251);
+}
+.font-15 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.align-right {
+  margin-left: auto;
+  margin-right: 1%;
+}
+a:hover {
+  cursor: pointer;
+}
+.vertical-align-middle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+a {
+  font-size: 13px;
+  color: #192a3e;
+  line-height: 20px;
+}
+a:hover {
+  text-decoration: none;
+  color: currentColor;
+}

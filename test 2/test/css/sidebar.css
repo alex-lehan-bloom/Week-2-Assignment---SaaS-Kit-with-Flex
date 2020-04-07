@@ -1,0 +1,97 @@
+/* Start Of sidebar CSS */
+.sidebar {
+  height: 100%;
+  width: 325px;
+  min-width: 220px;
+  font-size: 13px;
+  color: #192a3e;
+  flex-grow: 1;
+  position: relative;
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  transition: all 5s;
+}
+.margin-left {
+  margin-left: 10%;
+}
+/* Sidebar, header */
+.sidebar-header {
+  height: 60px;
+  border-bottom: 1px solid #ebeff2;
+  width: 100%;
+  align-items: center;
+}
+.sidebar-header h3 {
+  font-size: 18px;
+  font-family: "Open Sans", "Poppins", sans-serif;
+}
+
+/* Sidebar, middle */
+.sidebar-middle {
+  min-height: calc(50% - 60px);
+  border-bottom: 1px solid #ebeff2;
+  min-height: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sidebar h4 {
+  font-size: 14px;
+}
+.sidebar-middle .avatar {
+  border-radius: 50%;
+}
+.sidebar-middle .row {
+  margin-bottom: 3%;
+}
+.sidebar-middle .col-9 {
+  margin-left: 3%;
+}
+.sidebar .email {
+  font-size: 13px;
+  color: #90a0b7;
+}
+.sidebar a.active-blue {
+  color: rgb(24, 160, 251);
+}
+
+/* Sidebar, middle, nav items */
+
+.sidebar-middle .nav-link img {
+  margin-right: 3%;
+}
+
+/* Sidebar, bottom */
+.sidebar-bottom {
+  padding-top: 30px;
+  max-height: 50%;
+}
+.sidebar-bottom img {
+  margin-right: 3%;
+}
+
+.sidebar-bottom .toggle {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  align-items: center;
+}
+.sidebar-bottom .toggle p {
+  margin-bottom: 0;
+}
+.square {
+  background-color: #c4c4c4;
+  height: 14px;
+  width: 14px;
+  border-radius: 2px;
+  z-index: 1;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 3%;
+}
+.line {
+  width: 2px;
+  height: 10px;
+  background-color: white;
+  border-radius: 2px;
+  z-index: 2;
+  margin-left: 35%;
+}
